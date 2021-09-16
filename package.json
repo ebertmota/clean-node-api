@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "ebertmota <ebert.mota03@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --watch",
+    "test:staged": "jest"
+  },
   "dependencies": {
     "git-commit-msg-linter": "^3.2.8",
     "ts-node": "^10.2.1"
@@ -22,9 +26,5 @@
     "lint-staged": "^11.1.2",
     "ts-jest": "^27.0.5",
     "typescript": "*"
-  },
-  "scripts": {
-    "test": "jest --watch",
-    "test:staged": "jest"
   }
 }
