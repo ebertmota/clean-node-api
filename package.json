@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --watch",
-    "test:staged": "jest"
+    "test:staged": "jest",
+    "prepare": "husky install"
   },
   "dependencies": {
     "git-commit-msg-linter": "^3.2.8",
