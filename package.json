@@ -5,8 +5,8 @@
   "author": "ebertmota <ebert.mota03@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watch",
-    "test:staged": "jest",
+    "test": "jest --watch --passWithNoTests",
+    "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "dependencies": {
