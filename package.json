@@ -14,11 +14,13 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "git-commit-msg-linter": "^3.2.8",
     "ts-node": "^10.2.1",
     "validator": "^13.6.0"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
     "@types/validator": "^13.6.3",
