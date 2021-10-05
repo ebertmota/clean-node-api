@@ -16,12 +16,15 @@
   "dependencies": {
     "bcrypt": "^5.0.1",
     "git-commit-msg-linter": "^3.2.8",
+    "mongodb": "^4.1.2",
     "ts-node": "^10.2.1",
     "validator": "^13.6.0"
   },
   "devDependencies": {
+    "@shelf/jest-mongodb": "^2.1.0",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^27.0.1",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^16.9.1",
     "@types/validator": "^13.6.3",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
