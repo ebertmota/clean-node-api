@@ -5,6 +5,7 @@
   "author": "ebertmota <ebert.mota03@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "sucrase-node src/main/server.ts",
     "test": "jest --passWithNoTests --silent --no-coverage --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "yarn test --watch -c jest-unit-config.js",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
     "git-commit-msg-linter": "^3.2.8",
     "mongodb": "^4.1.2",
     "ts-node": "^10.2.1",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "@shelf/jest-mongodb": "^2.1.0",
     "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
     "@types/jest": "^27.0.1",
     "@types/mongodb": "^4.0.7",
     "@types/node": "^16.9.1",
@@ -36,6 +39,7 @@
     "husky": "^7.0.2",
     "jest": "^27.2.0",
     "lint-staged": "^11.1.2",
+    "sucrase": "^3.20.2",
     "ts-jest": "^27.0.5",
     "typescript": "*"
   }
