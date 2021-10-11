@@ -2,3 +2,4 @@ node_modules
 dist
 coverage
 progress.md
+globalConfig.json
