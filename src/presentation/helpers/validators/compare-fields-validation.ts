@@ -7,8 +7,8 @@ export class CompareFieldsValidation implements Validation {
     private readonly fieldToCompareName: string
   ) {}
 
-  validate (data: any): Error {
-    if (this.fieldName !== this.fieldToCompareName) {
+  validate (input: any): Error {
+    if (input[this.fieldName] !== input[this.fieldToCompareName]) {
       return new InvalidParamError(this.fieldToCompareName)
     }
   }
